@@ -55,7 +55,7 @@ window.addEventListener("scroll", () => {
 // ===============================
 const footer = document.querySelector("footer p");
 if (footer) {
-  footer.innerHTML = `Created by Eve Omondi. &copy; ${new Date().getFullYear()}`;
+  footer.innerHTML = `Created by Pasca Cheruiyot. &copy; ${new Date().getFullYear()}`;
 }
 
 // ===============================
@@ -133,4 +133,5 @@ toggleCheckbox.addEventListener("change", () => {
     document.body.classList.remove("dark-mode");
     localStorage.setItem("theme", "light");
   }
+
 });
